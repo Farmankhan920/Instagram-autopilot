@@ -1,0 +1,15 @@
+# ── Credentials (NEVER commit real tokens!) ──────────────────────────────────
+config.js
+secrets.js
+.env
+.env.*
+
+# ── OS & Editor files ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ── Node (if you add any tooling later) ───────────────────────────────────────
+node_modules/
