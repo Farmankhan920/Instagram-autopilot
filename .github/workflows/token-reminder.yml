@@ -1,0 +1,17 @@
+name: 🔔 Token Renewal Reminder
+
+on:
+  schedule:
+    # Runs every 50 days — reminds you to renew your Facebook token before it expires
+    - cron: '0 9 */50 * *'
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Renewal Reminder
+        run: |
+          echo "⚠️  REMINDER: Your Facebook Access Token expires in ~10 days!"
+          echo "Please go to https://developers.facebook.com/tools/explorer/"
+          echo "and regenerate a long-lived token, then update CONFIG.FB_TOKEN in Apps Script."
