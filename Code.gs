@@ -2,7 +2,7 @@
  * ============================================================
  *  Instagram AutoPilot — Google Apps Script
  *  Author  : Farman920
- *  GitHub  : https://github.com/Farman920/instagram-autopilot
+ *  GitHub  : https://github.com/Farmankhan920/instagram-autopilot
  *  License : MIT
  * ============================================================
  *
